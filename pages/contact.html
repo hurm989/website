@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css"
+        integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css"
+        integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous" />
+    <!-- <link rel="stylesheet" href="contact.css"> -->
+    <title>Green Events</title>
+</head>
+
+<body>
+    <div class="b">
+        <nav class="navbar navbar-expand-lg fixed-top p-0 m-0 fs-5">
+
+            <div class="container-fluid a fixed-top">
+                <a class="navbar-brand fw-bold" href="#"><img src="../image/logo.png"
+                        style="width: 140px; color: #c7a475;" alt=""></a>
+                <button class="navbar-toggler btnI" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="fas fa-bars" style="color:#c7a475; font-size:28px;"></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-5 mb-2 mb-lg-0">
+                        <li class="nav-item me-5">
+                            <a class="nav-link active text-clr fw-bold fs-5" aria-current="page"
+                                href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link text-clr fw-bold fs-5" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link text-clr fw-bold fs-5" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link text-clr fw-bold fs-5" href="video.html">Videos</a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link text-clr fw-bold fs-5" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link text-clr fw-bold fs-5" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="d-flex flex-column align-items-center justify-content-center h-100">
+            <h5 class="fw-bold fst-italic text-clr ovrfl"
+                style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 4em; color:#c7a475">
+                Contact Us</h5>
+            <a class="br me-2" href="#SetADate">Set A Date</a>
+        </div>
+    </div>
+
+
+
+    <div style="background-color:white" class="frm" id="SetADate">
+        <section class="pt-5">
+            <div class="container">
+                <div class="container-fluid">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-md-3"></div>
+                            <div class="col-md-6">
+                                    <form id="submit">
+                                    <div>
+                                        <h3 class="fw-bold ovrfl">Set A Date </h3>
+                                    </div>
+                                    <div>
+                                        <p class="m-0 p-0">Fields marked with an <span class="text-danger"> *
+                                            </span> are required</p>
+                                        <p class="m-0 p-0 fw-bold">Name<span class="text-danger"> * </span></p>
+                                        <input required type="text" class="regInp w-100 p-2 mt-1" placeholder="Name"
+                                            name="" id="name" />
+                                        <p id="nameHint" style="font-size: 0.5em; display: none">
+                                            Name should be more than 3 characters
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <p class="m-0 p-0 fw-bold">Email<span class="text-danger"> * </span></p>
+                                        <input required type="text" class="regInp w-100 p-2 mt-1"
+                                            placeholder="Enter Email" name="" id="mail" />
+                                        <p id="nameHint" style="font-size: 0.5em; display: none">
+                                            Name should be more than 3 characters
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <label for="cars" class="fw-bold">Choose a Theme<span class="text-danger"> *
+                                            </span></label> <br>
+                                        <select style="width: 100%;" class="regInp p-2 mt-1" name="" id="dropdown">
+                                            <option selected value="">Choose A Theme</option>
+                                            <option value="Birthday">Birthday</option>
+                                            <option value="Wedding">Wedding</option>
+                                            <option value="Farshi Setup">Farshi Setup</option>
+                                            <option value="Bridal Setup">Bridal Shower</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+
+                                    <div>
+                                        <p class="m-0 p-0 fw-bold">Phone Number<span class="text-danger"> * </span></p>
+                                        <input required type="number" class="regInp w-100 p-2 mt-1"
+                                            placeholder="Enter Number" name="" id="number" />
+                                    </div>
+
+                                    <div>
+                                        <p class="m-0 p-0 fw-bold">Date<span class="text-danger"> * </span></p>
+                                        <input required type="date" class="regInp w-100 p-2 mt-1"
+                                            placeholder="Enter Number" name="" id="date" />
+
+                                    </div>
+
+                                    <div>
+                                        <p class="m-0 p-0 fw-bold">Day<span class="text-danger"> * </span></p>
+                                        <input required type="time" class="regInp w-100 p-2 mt-1"
+                                            placeholder="" name="" id="day" />
+
+                                    </div>
+
+                                    <div>
+                                        <p class="m-0 p-0 fw-bold">Any Message</p>
+                                        <textarea required type="text" class="regInp w-100 p-2 mt-1"
+                                            placeholder="Message" name="" id="msg" ></textarea>
+                                            
+
+                                    </div>
+
+                                    <div class="text-center">
+                                        <input class="text-center btn bg-transparent regInp p-2 mt-1" width="100%"
+                                            type="submit" value="submit" style="border: 3px solid #c7a475;" />
+                                    </div>
+
+                                    
+                                    
+                                </form>
+
+                            </div>
+                            <div class="col-md-3"></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="cnt mt-5">
+            <div class="d-flex justify-content-center">
+              <img src="../image/logo.png" width="400px" alt="">
+            </div>
+            <br> <br> <br> <br>
+            <div class="text-center d-flex justify-content-between icns">
+              <a href="https://www.facebook.com/eventplanner123/"><img width="40px" src="../image/fb.png" alt=""></a>
+              <a href="https://www.instagram.com/greenevent.pk/"><img width="40px" src="../image/insta-removebg-preview.png" alt=""></a>
+              <a href="tel:0307 2036425"><img width="40px" src="../image/image-removebg-preview.png" alt=""></a>
+              <a href="mailto:greenevent.pk@gmail.com"><img width="40px" src="../image/gmail-removebg-preview.png" alt=""></a>
+            </div>
+          </div>
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/9.6.6/firebase"></script>
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>

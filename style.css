@@ -1,0 +1,96 @@
+/* -------navbar--------- */
+body,*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+a:hover{
+  color: #c7a475;
+}
+a{
+  text-decoration: none;
+  color:   #c7a475;
+}
+.text-clr{
+  color: #c7a475;
+}
+.text-clr:hover{
+  color: #c7a475;
+}
+.a{
+  background-color: rgba(14, 12, 12, 0.8);
+}
+nav img{
+    width: 20%;
+    padding: 0;
+    margin: 0;
+}
+.br{
+  background-color: rgba(14, 12, 12, 0.8);
+  padding: 10px;
+  letter-spacing: 0.06em;
+  font-weight: bold;
+  font-size: larger;
+
+}
+.br:hover{
+  box-shadow: 8px 8px 8px 8px rgba(37, 35, 35, 0.8);
+}
+.hvr:hover{
+  box-shadow: 8px 8px 8px 8px rgba(37, 35, 35, 0.8);
+}
+.bgGrnd{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+}
+.ovrfl{
+  overflow-y: hidden;
+}
+.cnt{
+  background-repeat: no-repeat;
+  background-image: url('image/Footer2.jpg') ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+.icns{
+  margin: auto; 
+  width: 40%;
+}
+@media only screen and (max-width:700px)  {
+  .icns{
+    width: 90%;
+  }
+  
+}
+
+
+.b{
+  
+  background-repeat: no-repeat;
+  background-image: url('image/contact\ -\ Copy\ \(1\).jpg'); 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  
+}
+/* -------------------form------------- */
+.frm{
+  color: rgb(0, 0, 0);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.regInp{
+  border: 2px solid #c7a475;
+  border-radius: 3px;
+  /* background-color: white */
+
+}
+input::placeholder{
+  color: black;
+}
+
